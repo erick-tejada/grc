@@ -50,4 +50,28 @@ count=more
 regexp=connect
 colours=on_red
 count=more
-
+======
+# match python log INFO
+regexp=\sINFO\s
+colours=blue
+count=once
+======
+# match python log WARNING
+regexp=\sWARNING\s
+colours=yellow
+count=once
+======
+# match python log ERROR
+regexp=\sERROR\s
+colours=red
+count=once
+======
+# match python log DEBUG
+regexp=\sDEBUG\s
+colours=magenta
+count=once
+======
+# match python log CRITICAL
+regexp=\sCRITICAL\s
+colours=on_red
+count=once
